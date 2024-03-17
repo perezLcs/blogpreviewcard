@@ -27,16 +27,16 @@ body {
     justify-content: center;
     align-items: center;
     background: var(--color01);
+    font-size: 0.75rem;
 }
 
 main {
     background: #fff;
     padding: 24px;
     width: 327px;
-    height: 501px;
+    height: fit-content;
     border-radius: 20px;
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 100%);
-
 }
 
 section.description {
@@ -45,24 +45,25 @@ section.description {
 }
 
 img.preview {
-    width: 100%;
+    height: 100%;
+}
+
+div.preview {
+    height: 200px;
     border-radius: 10px;
     margin-bottom: 24px;
+    overflow: hidden;
 }
 
 p.tag {
     display: inline-block;
     padding: 4px 12px;
     background-color: var(--color01);
-    font-size: 0.75rem;
     font-weight: 800;
     border-radius: 4px;
     margin-bottom: 12px;
 }
 
-p.pdate {
-    font-size: 0.75rem;
-}
 
 main > section > h1 {
     font-size: 1.25rem;
@@ -90,9 +91,9 @@ p.nauthor {
 }
 
 div.attribution {
-    font-size: 0.6rem;
-    text-align: center;
-    margin: 12px 0;
+    position: absolute;
+    bottom: 0;
+    margin: 5px 0;
 }
 
 div.attribution > a {
