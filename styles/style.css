@@ -36,6 +36,7 @@ main {
     width: 327px;
     height: fit-content;
     border-radius: 20px;
+    border: 1px solid black;
     box-shadow: 8px 8px 0 rgba(0, 0, 0, 100%);
 }
 
